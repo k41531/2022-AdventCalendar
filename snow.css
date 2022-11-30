@@ -1,0 +1,10 @@
+.snow {
+    background-position: 0px 0px;
+    animation: animatedBackground 15s linear infinite;
+}
+  
+@keyframes animatedBackground {
+  100% {
+    background-position: 0px 100vh;
+  }
+}

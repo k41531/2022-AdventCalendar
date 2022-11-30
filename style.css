@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Nanum+Myeongjo&display=swap');
+:root {
+    --black: #222222;
+    --white: #FFFFFF;
+    --royal-blue: #4169E1;
+    --royal-dark-blue: #002366;
+    --gold: #FFCD38;
+    --cell-size: clamp(100px, 18vmin, 130px);
+}
+
+body {
+    height: 100%;
+    background-color: var(--royal-dark-blue);
+    max-width: 900px;
+    margin: auto;
+    padding: 0 2rem;
+    font-family: 'Lora', serif;
+}
+h1 {
+    color: var(--gold);
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+
+hr {
+	border-top: 1px dashed var(--gold);
+	border-bottom: 1px dashed var(--royal-dark-blue);
+    margin-bottom: 2rem;
+}
+
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, var(--cell-size));
+    justify-content: center;
+    gap: 3rem;
+}
+
+.date-cell {
+    height: var(--cell-size);
+    width: 100%;
+    background-color: var(--royal-dark-blue);
+    border: var(--gold) solid 2px ;
+    border-radius: 10px;
+}
+
+.cell-inside {
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    transform: translateX(8px) translateY(8px);
+    background:linear-gradient(90deg, var(--royal-dark-blue) 90%, var(--royal-blue) 100%);
+    border-radius: 0 16px 16px 0;
+}
+
+.cell-door {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: calc(var(--cell-size)*0.4);
+    border: var(--gold) dashed 1px ;
+    color: var(--gold);
+    border-radius: 0 16px 16px 0;
+    background-color: var(--royal-dark-blue);
+}
+
+.cell-door:hover{
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+    transform: perspective(900px) rotateY(-30deg);
+    cursor: pointer;
+}
+
+.door-nob {
+    position: absolute;
+    background-color: var(--gold);
+    width: 4px;
+    height: 20px; 
+    right: 0;
+    top: calc(50% - 10px);
+    transform: translateX(calc(var(--cell-size)*-0.05));
+} 
