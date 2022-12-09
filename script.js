@@ -7,7 +7,7 @@ const data = [
     {url:'https://zenn.dev/k41531/articles/32616dc9c01ee6'},
     {url:'https://zenn.dev/k41531/articles/ee46ef1d36a041'},
     {url:'https://zenn.dev/k41531/articles/693be62005d7fe'},
-    {url:'#'},
+    {url:'https://zenn.dev/k41531/articles/8ade9c6c891dea'},
     {url:'#'},
     {url:'#'},
     {url:'#'},
