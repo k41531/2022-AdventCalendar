@@ -10,7 +10,10 @@
 </head>
 
 <body class="snow">
-    <h1>2022 Advent Calendar</h1>
+    <header>
+        <h1>2022 Advent Calendar</h1>
+        <button onclick="showTitle(this)" class="show-title-btn">Show Title</button>
+    </header>
     <hr>
     <div id="calendar" class="calendar-container">
     </div>
@@ -19,7 +22,7 @@
             <div class="date-cell">
                 <div class="cell-inside">
                     <div class="cell-door">
-                        <span class="date-number"></span>
+                        <div class="date-number"></div>
                         <div class="door-nob"></div>
                     </div>
                 </div>

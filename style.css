@@ -17,6 +17,18 @@ body {
     padding: 0 2rem;
     font-family: 'Lora', serif;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.show-title-btn {
+    background-color: var(--royal-dark-blue);
+    color: var(--gold);
+    align-self: flex-end;
+    border-color: var(--gold);
+    border-radius: 4px;
+    padding: 0.1rem 0.3rem;
+}
 h1 {
     color: var(--gold);
     margin-bottom: 0;
@@ -64,6 +76,7 @@ hr {
     color: var(--gold);
     border-radius: 0 16px 16px 0;
     background-color: var(--royal-dark-blue);
+    /* overflow: clip; */
 }
 
 .cell-door:hover{
@@ -82,3 +95,16 @@ hr {
     top: calc(50% - 10px);
     transform: translateX(calc(var(--cell-size)*-0.05));
 } 
+
+.title {
+    display: -webkit-box;
+    font-size: calc(var(--cell-size)*0.12);
+    height: calc(var(--cell-size)*0.12*5.5);
+    width: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+    word-break: break-all;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
