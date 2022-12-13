@@ -53,8 +53,8 @@ const data = [
         title: '【CSS】Flexboxの中でボタンが大きくなる理由'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/48bd23ac24b645',
+        title: '【脆弱性クイズ】iframeのlocation'
     },
     {
         url: '#',
