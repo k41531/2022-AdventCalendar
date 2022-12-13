@@ -49,8 +49,8 @@ const data = [
         title: 'Rust 🦀 and WebAssemblyのチュートリアルを読む'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/99f073ee123e79#',
+        title: '【CSS】Flexboxの中でボタンが大きくなる理由'
     },
     {
         url: '#',
