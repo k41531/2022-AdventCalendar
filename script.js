@@ -61,8 +61,8 @@ const data = [
         title: '【CSS】雪を降らせるエフェクト'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/44b6dbd5f67ff9',
+        title: '３種類のXSSについてまとめる'
     },
     {
         url: '#',
