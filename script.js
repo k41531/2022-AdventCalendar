@@ -65,8 +65,8 @@ const data = [
         title: '３種類のXSSについてまとめる'
     },
     {
-        url: '#',
-        title: ''
+        url: '【CSS】displayの2つの役割と2値構文',
+        title: 'https://zenn.dev/k41531/articles/f3fbcf92d8b4a1'
     },
     {
         url: '#',
