@@ -69,8 +69,8 @@ const data = [
         title: 'https://zenn.dev/k41531/articles/f3fbcf92d8b4a1'
     },
     {
-        url: '#',
-        title: ''
+        url: '【記事紹介】Hello Many Worlds',
+        title: 'https://zenn.dev/k41531/articles/61121376f31f16'
     },
     {
         url: '#',
