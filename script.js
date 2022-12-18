@@ -73,8 +73,8 @@ const data = [
         title: '【記事紹介】Hello Many Worlds'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/b3c533d1e4ef13',
+        title: '【アプリ紹介】Wooshyで全てをキーボード操作する'
     },
     {
         url: '#',
