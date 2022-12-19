@@ -77,8 +77,8 @@ const data = [
         title: '【アプリ紹介】Wooshyで全てをキーボード操作する'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/57ea40617af734',
+        title: 'Elixirでライフゲームを作ってみる'
     },
     {
         url: '#',
