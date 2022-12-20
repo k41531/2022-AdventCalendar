@@ -81,8 +81,8 @@ const data = [
         title: 'Elixirでライフゲームを作ってみる'
     },
     {
-        url: '#',
-        title: ''
+        url: 'OpenGLで立方体を作る',
+        title: 'https://zenn.dev/k41531/articles/9898945646e1f0'
     },
     {
         url: '#',
