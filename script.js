@@ -81,12 +81,12 @@ const data = [
         title: 'Elixirでライフゲームを作ってみる'
     },
     {
-        url: 'OpenGLで立方体を作る',
-        title: 'https://zenn.dev/k41531/articles/9898945646e1f0'
+        url: 'https://zenn.dev/k41531/articles/9898945646e1f0',
+        title: 'OpenGLで立方体を作る'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/f468b9be977ea9',
+        title: '【intigritiクイズ】DNS Rebinding Attack'
     },
     {
         url: '#',
