@@ -89,8 +89,8 @@ const data = [
         title: '【intigritiクイズ】DNS Rebinding Attack'
     },
     {
-        url: '#',
-        title: ''
+        url: 'https://zenn.dev/k41531/articles/ff790d5880dee5',
+        title: 'SvelteでTicTacToe'
     },
     { url: '#' }
 ]
