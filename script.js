@@ -23,7 +23,6 @@ const data = [
         url: 'https://zenn.dev/k41531/articles/32616dc9c01ee6',
         title: 'Zero-copy deserializationとは【ChatGPTとの共著】'
     },
-
     {
         url: 'https://zenn.dev/k41531/articles/ee46ef1d36a041',
         title: '【Whisper】GPUが無くてもオフラインで簡単音声認識'
@@ -92,7 +91,10 @@ const data = [
         url: 'https://zenn.dev/k41531/articles/ff790d5880dee5',
         title: 'SvelteでTicTacToe'
     },
-    { url: '#' }
+    {
+        url: 'https://zenn.dev/k41531/articles/e72f9effb39f78',
+        title: 'Rust 🦀 と Wasm のチュートリアル（境界編）'
+    },
 ]
 
 
