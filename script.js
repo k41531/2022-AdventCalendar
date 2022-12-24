@@ -95,6 +95,10 @@ const data = [
         url: 'https://zenn.dev/k41531/articles/e72f9effb39f78',
         title: 'Rust 🦀 と Wasm のチュートリアル（境界編）'
     },
+    {
+        url: 'https://zenn.dev/k41531/articles/c2efdc5f4943c2',
+        title: 'ひとりアドベントカレンダーを終えて'
+    }
 ]
 
 
